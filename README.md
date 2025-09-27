@@ -9,6 +9,7 @@ Projekt powstał jako ćwiczenie podstaw programowania w React i pokazuje pracę
 - ➕ Dodawanie nowych zadań  
 - ✅ Oznaczanie zadań jako ukończone  
 - 🗑️ Usuwanie zadań z listy
+- 📱 Responsywność aplikacji
   
 ---
 
@@ -48,3 +49,4 @@ Projekt powstał jako ćwiczenie podstaw programowania w React i pokazuje pracę
 
 ## 📌 Autor
 Projekt stworzony przez wojteq29 w ramach nauki React.
+

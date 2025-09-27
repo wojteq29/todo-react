@@ -50,7 +50,7 @@ function App() {
 								To produktywne narzędzie zostało zaprojektowane, aby pomóc Ci lepiej zarządzać projektem zadań!
 							</p>
 						</div>
-						<button className={styles.header__btn} onClick={toggleTodoScreen}>
+						<button className={`${styles.btn} ${styles.header__btn}`} onClick={toggleTodoScreen}>
 							Zaczynamy <i className={`${styles.header__btnIcon} fa-solid fa-arrow-right`}></i>
 						</button>
 					</div>

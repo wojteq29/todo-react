@@ -14,6 +14,24 @@ body {
 
 // Start Screen
 
+.btn {
+	position: relative;
+	padding: 0.6em;
+	width: 100%;
+	background-color: #5b3bdc;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+	font-size: 2rem;
+	clip-path: ellipse(100% 56% at 50% 50%);
+	transition: color 0.3s, background-color 0.3s;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #472eaa;
+	}
+}
+
 .header {
 	display: flex;
 	flex-direction: column;
@@ -50,24 +68,6 @@ body {
 		font-size: 1.4rem;
 		color: #646464;
 		line-height: 1.3;
-	}
-
-	&__btn {
-		position: relative;
-		padding: 0.6em;
-		width: 100%;
-		background-color: #5b3bdc;
-		border: none;
-		border-radius: 15px;
-		color: #fff;
-		font-size: 2rem;
-		clip-path: ellipse(100% 56% at 50% 50%);
-		transition: color 0.3s, background-color 0.3s;
-		cursor: pointer;
-
-		&:hover {
-			background-color: #472eaa;
-		}
 	}
 
 	&__btnIcon {
@@ -149,7 +149,7 @@ body {
 
 // Todo List
 
-.btn {
+.toolBtn {
 	margin-left: 0.3em;
 	padding: 0.5em;
 	background: none;
@@ -168,14 +168,7 @@ body {
 .returnBtn {
 	padding: 0.5em 1em;
 	margin-bottom: 1.4em;
-	background-color: #5b3bdc;
-	border-radius: 6px;
-	color: #fff;
-
-	&:hover {
-		background-color: #472eaa;
-		color: #fff;
-	}
+	width: auto;
 }
 
 .todoList {
@@ -246,7 +239,7 @@ body {
 
 		&.completed {
 			text-decoration: line-through;
-			color: #666666;
+			color: #5b3bdc;
 		}
 	}
 

@@ -14,10 +14,10 @@ export const Tasks = ({ tasks, setTasks, onDeleteBtn }) => {
 			<span className={`${styles.todoList__todoText} ${task.done ? styles.completed : ''}`}>{task.text}</span>
 			<div className={styles.todoList__tools}>
 				<button onClick={() => handleDoneBtn(task.id)} className={styles.btn}>
-					Zrobione
+					<i className="fa-solid fa-check"></i>
 				</button>
 				<button onClick={() => onDeleteBtn(task.id)} className={styles.btn}>
-					Usuń
+					<i className="fa-solid fa-trash"></i>
 				</button>
 			</div>
 		</li>
